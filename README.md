@@ -1,7 +1,5 @@
 <div align="center">
-  <h1> Tenere </h1>
-  <img src="assets/logo.png" alt="A crab in the moroccan desert"></img>
-  <h2> TUI interface for LLMs written in Rust </h2>
+  <h2> TUI for LLMs </h2>
 </div>
 
 ## 📸 Demo
@@ -32,16 +30,6 @@
 
 ## 🚀 Installation
 
-<a href="https://repology.org/project/tenere/versions">
-    <img src="https://repology.org/badge/vertical-allrepos/tenere.svg" alt="Packaging status" align="left">
-</a>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ### 📥 Binary releases
 
 You can download the pre-built binaries from the [release page](https://github.com/pythops/tenere/releases)
@@ -63,7 +51,9 @@ environment.systemPackages = with pkgs; [
   tenere
 ];
 ```
+
 For non-NixOS systems, install directly with:
+
 ```nix
 nix-env -iA nixpkgs.tenere
 ```
@@ -76,7 +66,7 @@ To set up ([tutorial](https://www.youtube.com/watch?v=XiVz2UR9epE)):
 
 1. Install nix-on-droid from F-Droid
 2. Add tenere to your packages in ".config/nixpkgs/nix-on-droid.nix":
-3. Run ``nix-on-droid switch``
+3. Run `nix-on-droid switch`
 4. Create your config at ".config/tenere/config.toml"
 
 ### 🍺 Homebrew
@@ -335,6 +325,12 @@ There are 3 modes like vim: `Normal`, `Visual` and `Insert`.
 `y`: Yank the selected text
 
 <br>
+
+## Contributing
+
+- No AI slop.
+- Only submit a pull request after having a prior issue or discussion.
+- Keep PRs small and focused.
 
 ## ⚖️ License
 
